@@ -134,8 +134,8 @@
 //     author: 'John Doe',
 //     isOfficial: true
 //   }
-// ]
 
+// ]
 
 
 
@@ -150,3 +150,72 @@
 //           </div>
 //         ))
 //       }
+
+import car from "../assets/companent/img/ma.png"
+import cara from '../assets/companent/img/cara.png'
+import honji from '../assets/companent/img/honji.png'
+import jeep from '../assets/companent/img/jeep.png'
+import chevrolet from '../assets/companent/img/chevrolet.png'
+import nisan from '../assets/companent/img/nisan.png'
+
+export const LINKS = [
+  {
+    title: "Ford Fiesta",
+    image:car,
+    seats:  "5 Seats",
+    transmission: "Automatic",
+    fuel: "1-lit / 2.5 km",
+    ageRequirement: "21+ Years",
+    isAvailable: true,
+  },
+  {
+    title: "Nissan Versa",
+    image:cara,
+    category: "Compact Car",
+    seats: "5 Seats",
+    transmission: "Automatic",
+    fuel: "1-lit / 2.5 km",
+    ageRequirement: "21+ Years",
+    isAvailable: true,
+  },
+  {
+    title: "Toyota Corolla",
+    image:honji,
+    category: "Mid-size Car",
+    seats: "5 Seats",
+    transmission: "Automatic",
+    fuel: "1-lit / 2.5 km",
+    ageRequirement: "21+ Years",
+    isAvailable: true,
+  },
+  {
+    title: "Nissan Rogue",
+    image:jeep,
+    category: "Mid-size SUV",
+    seats: "5 Seats",
+    transmission: "Automatic",
+    fuel: "1-lit / 2.5 km",
+    ageRequirement: "21+ Years",
+    isAvailable: true,
+  },
+  {
+    title: "Chevy Traverse",
+    image:chevrolet,
+    category: "Full-size SUV",
+    seats: "5 Seats",
+    transmission: "Automatic",
+    fuel: "1-lit / 2.5 km",
+    ageRequirement: "21+ Years",
+    isAvailable: true,
+  },
+  {
+    title: "Nissan Altima",
+    image:nisan,
+    category: "Full-size Car",
+    seats: "5 Seats",
+    transmission: "Automatic",
+    fuel: "1-lit / 2.5 km",
+    ageRequirement: "21+ Years",
+    isAvailable: true,
+  },
+];
