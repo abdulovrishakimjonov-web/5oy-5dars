@@ -219,3 +219,30 @@ export const LINKS = [
     isAvailable: true,
   },
 ];
+
+export const FEATURES = [
+  {
+    id: 1,
+    title: "Book online, pay online",
+    description: "Complete the booking process A–Z, with our easy online system",
+    icon: "https://cdn-icons-png.flaticon.com/512/104/104662.png" // Kompyuter icon
+  },
+  {
+    id: 2,
+    title: "Guaranteed car reservation",
+    description: "When you book with Car rental, you can be confident your car will be waiting for you",
+    icon: "https://cdn-icons-png.flaticon.com/512/565/565547.png" // Shield icon
+  },
+  {
+    id: 3,
+    title: "Unparalleled customer service",
+    description: "We're here to help. We pride ourselves in our customer service",
+    icon: "https://cdn-icons-png.flaticon.com/512/747/747376.png" // User support icon
+  },
+  {
+    id: 4,
+    title: "No reservation or booking fees",
+    description: "No cancellation fees if cancelled 24 hours prior to booking time",
+    icon: "https://cdn-icons-png.flaticon.com/512/711/711239.png" // Wallet icon
+  }
+];
